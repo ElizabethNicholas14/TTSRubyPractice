@@ -13,7 +13,7 @@ class Cup
 
   def sip(amount=10)
     if amount <0
-      puts "That's gross stop adding your backwash to the cup"
+      puts " That's gross stop adding your backwash to the cup"
       @drink_amount
     elsif amount> @drink_amount
       @drink_amount=0
